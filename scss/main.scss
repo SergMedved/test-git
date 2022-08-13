@@ -1,0 +1,131 @@
+
+body {
+  margin: 0;
+}
+.page-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: #222;
+  // padding: 50px 0;
+  font-family: "Noto serif", sans-serif;
+  font-size: 15px;
+  color: #a9a9a9;
+}
+
+.exhibition-poster-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0 0;
+}
+
+.exhibitions-link {
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+.exhibition-poster {
+  width: 100%;
+
+}
+
+.exhibition-info {
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px 40px 80px;
+  background: url('/img/section-header-seprator_.png') no-repeat center bottom 30px;
+  &__back-btn {
+    position: absolute;
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    background: #e2b13c;
+    border: 1px solid #e2b13c;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    left: 30px;
+    top: 30px;
+    &:hover {
+      background: #fff;
+      color: #e2b13c;
+    }
+  }
+  &__img {
+    max-width: 100%;
+    max-height: 700px;
+  }
+  &__title {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+  }
+  &__title2 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+  }
+  &__title3 {
+    font-size: 24px;
+    font-weight: 400;
+    &--center {
+      text-align: center;
+    }
+  }
+  &__price-list {
+    display: flex;
+    margin-bottom: 15px;
+    padding-top: 25px;
+    background: url('/img/section-header-seprator_.png') no-repeat center top;
+  }
+  &__price-list-left {
+    width: 35%;
+    padding-top: 75px;
+  }
+  &__price-list-right {
+    width: 70%;
+    color: #ddd;
+    padding-left: 20px;
+  }
+  &__subtitle {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  &__categories_title {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  &__list-item {
+    line-height: 22px;
+  }
+  &__special-text {
+    color: #e2b13c;
+  }
+  &__price {
+    color: #e2b13c;
+  }
+  &__gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 20px 0 20px;
+  }
+  &__gallery-img {
+    max-width: 30%;
+    max-height: 300px;
+  }
+  &__description {
+    background: url('/img/ftr-widget-arrow.png') center top no-repeat;
+    padding-top: 10px;
+  }
+}
+

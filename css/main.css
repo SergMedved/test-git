@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+}
+
+.page-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: #222;
+  font-family: "Noto serif", sans-serif;
+  font-size: 15px;
+  color: #a9a9a9;
+}
+
+.exhibition-poster-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0 0;
+}
+
+.exhibitions-link {
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+.exhibition-poster {
+  width: 100%;
+}
+
+.exhibition-info {
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px 40px 80px;
+  background: url("/img/section-header-seprator_.png") no-repeat center bottom 30px;
+}
+
+.exhibition-info__back-btn {
+  position: absolute;
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+  background: #e2b13c;
+  border: 1px solid #e2b13c;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  left: 30px;
+  top: 30px;
+}
+
+.exhibition-info__back-btn:hover {
+  background: #fff;
+  color: #e2b13c;
+}
+
+.exhibition-info__img {
+  max-width: 100%;
+  max-height: 700px;
+}
+
+.exhibition-info__title {
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.exhibition-info__title2 {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.exhibition-info__title3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.exhibition-info__title3--center {
+  text-align: center;
+}
+
+.exhibition-info__price-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+  padding-top: 25px;
+  background: url("/img/section-header-seprator_.png") no-repeat center top;
+}
+
+.exhibition-info__price-list-left {
+  width: 35%;
+  padding-top: 75px;
+}
+
+.exhibition-info__price-list-right {
+  width: 70%;
+  color: #ddd;
+  padding-left: 20px;
+}
+
+.exhibition-info__subtitle {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.exhibition-info__categories_title {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.exhibition-info__list-item {
+  line-height: 22px;
+}
+
+.exhibition-info__special-text {
+  color: #e2b13c;
+}
+
+.exhibition-info__price {
+  color: #e2b13c;
+}
+
+.exhibition-info__gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 20px 0 20px;
+}
+
+.exhibition-info__gallery-img {
+  max-width: 30%;
+  max-height: 300px;
+}
+
+.exhibition-info__description {
+  background: url("/img/ftr-widget-arrow.png") center top no-repeat;
+  padding-top: 10px;
+}
+/*# sourceMappingURL=main.css.map */
